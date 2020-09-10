@@ -1,0 +1,17 @@
+#server.port=8087
+#sping.data.elasticsearch.enabled=true
+#sping.data.elasticsearch.cluster-name=elasticsearch
+#sping.data.elasticsearch.cluster-nodes=118.190.52.28:9300
+#sping.data.elasticsearch.properties=
+#sping.data.elasticsearch.path=
+#sping.data.elasticsearch.logs=./elasticsearch/log
+#sping.data.elasticsearch.data=./elasticsearch/data
+#sping.data.elasticsearch.local=true
+#spring.application.name=java-elastic
+
+server:ort: 8087
+spring:
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 118.190.52.28:9300
